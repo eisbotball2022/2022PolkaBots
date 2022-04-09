@@ -1,10 +1,13 @@
 #include <kipr/wombat.h>
 
+
+//this code is for our Roomba. It starts in the corner of the starting box and then navigates along the center black line to collect pompoms. 
+//It spins around at the transporter and then returns back to the starting box while pushing the pompoms.
 int main()
 {
  create_connect();
     
- 
+  
   create_drive_direct(500,500);
   msleep(1000);
   create_drive_direct(-200,200);
