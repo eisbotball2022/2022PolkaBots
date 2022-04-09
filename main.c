@@ -10,6 +10,7 @@ int main()
   
   create_drive_direct(500,500);
   msleep(1000);
+ //speed to 200 because 500 was too fast and we were losing pompoms out of our bulldozer
   create_drive_direct(-200,200);
   msleep(1000);
   create_drive_direct(500,500);
